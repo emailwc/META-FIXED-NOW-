@@ -17,5 +17,5 @@ jobs:
       - run: ./gradlew assembleDebug
       - uses: actions/upload-artifact@v4
         with:
-          name: SonyFix-APK
+          name: SonyFix-APK-INSTALLABLE
           path: app/build/outputs/apk/debug/*.apk
